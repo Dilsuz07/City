@@ -97,13 +97,13 @@
   width: 150px;
   height: 50px;
   visibility: hidden;
+  -webkit-transition: 0.2s ease all;
+  transition: 0.2s ease all;
 }
 
 .images_box .copy i {
   font-size: 20px;
   margin-left: 1.5rem;
-  -webkit-transition: 0.2s ease all;
-  transition: 0.2s ease all;
 }
 
 .images_box .copy i:hover {
@@ -118,6 +118,8 @@
   width: 150px;
   height: 50px;
   visibility: hidden;
+  -webkit-transition: 0.2s ease all;
+  transition: 0.2s ease all;
 }
 
 .images_box .copy_novisible i {
