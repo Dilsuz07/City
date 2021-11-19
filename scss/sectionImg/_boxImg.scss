@@ -55,13 +55,13 @@
         transition: .2s ease all;
 
         i{  
-            font-size: 20px;
+            font-size: 25px;
             margin-left: 1.5rem;
-
+            transition: .2s ease all;
         
             &:hover{
                 cursor: pointer;
-                opacity: 0.8;
+                color: rgb(196, 194, 194);
             }
         }
     }
@@ -75,13 +75,13 @@
         transition: .2s ease all;
          
         i{  
-            font-size: 20px;
+            font-size: 25px;
             margin-left: 1.5rem;
             transition: .2s ease all;
             
             &:hover{
                 cursor: pointer;
-                opacity: 0.8;
+                color: rgb(196, 194, 194);
             }
         }
     }
