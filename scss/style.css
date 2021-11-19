@@ -16,8 +16,8 @@
   margin-left: 17.5rem;
   margin-top: 3.5rem;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 7.5rem;
   height: 2.5rem;
   background-color: white;
@@ -25,8 +25,8 @@
   border: 1px solid #b3b3e2;
   font-size: 18px;
   border-radius: 3px;
-  -webkit-transition: 0.2s ease all;
-  transition: 0.2s ease all;
+  -webkit-transition: .2s ease all;
+  transition: .2s ease all;
 }
 
 .header button:hover {
@@ -102,8 +102,8 @@
 .images_box .copy i {
   font-size: 20px;
   margin-left: 1.5rem;
-  -webkit-transition: 0.2s ease all;
-  transition: 0.2s ease all;
+  -webkit-transition: .2s ease all;
+  transition: .2s ease all;
 }
 
 .images_box .copy i:hover {
@@ -123,8 +123,8 @@
 .images_box .copy_novisible i {
   font-size: 20px;
   margin-left: 1.5rem;
-  -webkit-transition: 0.2s ease all;
-  transition: 0.2s ease all;
+  -webkit-transition: .2s ease all;
+  transition: .2s ease all;
 }
 
 .images_box .copy_novisible i:hover {
@@ -133,28 +133,28 @@
 }
 
 .images_box .img-1 {
-  -webkit-transition: 0.2s ease all;
-  transition: 0.2s ease all;
+  -webkit-transition: .2s ease all;
+  transition: .2s ease all;
 }
 
 .images_box .img-2 {
-  -webkit-transition: 0.2s ease all;
-  transition: 0.2s ease all;
+  -webkit-transition: .2s ease all;
+  transition: .2s ease all;
 }
 
 .images_box .img-3 {
-  -webkit-transition: 0.2s ease all;
-  transition: 0.2s ease all;
+  -webkit-transition: .2s ease all;
+  transition: .2s ease all;
 }
 
 .images_box .img-4 {
-  -webkit-transition: 0.2s ease all;
-  transition: 0.2s ease all;
+  -webkit-transition: .2s ease all;
+  transition: .2s ease all;
 }
 
 .images_box .img-5 {
-  -webkit-transition: 0.2s ease all;
-  transition: 0.2s ease all;
+  -webkit-transition: .2s ease all;
+  transition: .2s ease all;
 }
 
 .images_box .img-1:hover {
@@ -221,7 +221,7 @@ body {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   background-color: #454b54;
 }
 
@@ -233,7 +233,7 @@ body {
   margin: 3rem auto;
   border-radius: 5px;
   -webkit-box-shadow: 2px 2px 20px #181c24;
-  box-shadow: 2px 2px 20px #181c24;
+          box-shadow: 2px 2px 20px #181c24;
 }
 
 .container .menyu {
@@ -242,7 +242,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-top: 3rem;
   margin-left: 2.3rem;
   width: 5rem;
@@ -276,7 +276,7 @@ body {
 
 .container .icon-1:hover::after {
   position: absolute;
-  content: "";
+  content: '';
   top: 3;
   left: 4.8rem;
   height: 3rem;
@@ -287,7 +287,7 @@ body {
 
 .container .icon-2:hover::after {
   position: absolute;
-  content: "";
+  content: '';
   top: 6;
   left: 4.8rem;
   height: 3rem;
@@ -298,7 +298,7 @@ body {
 
 .container .icon-3:hover::after {
   position: absolute;
-  content: "";
+  content: '';
   top: 9;
   left: 4.8rem;
   height: 3rem;
@@ -309,7 +309,7 @@ body {
 
 .container .icon-4:hover::after {
   position: absolute;
-  content: "";
+  content: '';
   top: 12;
   left: 4.8rem;
   height: 3rem;
@@ -320,7 +320,7 @@ body {
 
 .container .icon-3::after {
   position: absolute;
-  content: "";
+  content: '';
   top: 9;
   left: 4.8rem;
   height: 3rem;
@@ -357,7 +357,4 @@ body {
   font-size: 20px;
   font-weight: 600;
 }
-
-/*# sourceMappingURL=style.css.map */
-
 /*# sourceMappingURL=style.css.map */

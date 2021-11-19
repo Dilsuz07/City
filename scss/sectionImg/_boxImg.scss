@@ -4,18 +4,17 @@
     margin-top: 11rem;
     width: 76%;
     height: 65%;
-
+     
     .box-1{
         position: absolute;
         display: flex;
         width: 100%;
         height: 50%;
-        transition: 1s ease all;
-        
-        
+                        
         .img-1 img{
             width: 200px;
             height: 180px;
+            
         }
         .img-2 img{
             margin-left: 1rem;
@@ -44,17 +43,9 @@
             height: 180px;
             margin-left:1rem;
         }
-        
     }
-    @for $number from 1 to 6 {
-        .img-#{$number}:hover{
-            opacity: 0.7;
-            .COPY{
-                visibility: visible;
-            }
-        }
-    }
-    .COPY{
+    
+    .copy{
         position: absolute;
         margin-top: 80px;
         margin-left: 45px;
@@ -65,17 +56,18 @@
         i{  
             font-size: 20px;
             margin-left: 1.5rem;
-
+            transition: .2s ease all;
+        
             &:hover{
                 cursor: pointer;
                 opacity: 0.8;
             }
         }
     }
-    .Copy{
+    .copy_novisible{
         position: absolute;
         margin-top: 80px;
-        margin-left: 75px;
+        margin-left: 150px;
         width: 150px;
         height: 50px;
         visibility: hidden;
@@ -83,10 +75,28 @@
         i{  
             font-size: 20px;
             margin-left: 1.5rem;
+            transition: .2s ease all;
             
             &:hover{
                 cursor: pointer;
                 opacity: 0.8;
+            }
+        }
+    }
+    @for $sanoq from 1 through 5 {
+        .img-#{$sanoq}{
+            transition: .2s ease all;
+        }
+    }
+
+    @for $number from 1 to 6 {
+        .img-#{$number}:hover{
+            opacity: 0.7;
+            .copy{
+                visibility: visible;
+            }
+            .copy_novisible{
+                visibility: visible;
             }
         }
     }
