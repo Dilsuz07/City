@@ -1,0 +1,111 @@
+@import "headerCity/header";
+@import "sectionImg/boxImg";
+
+$sanf_serif:sans-serif;
+$color_all:gray;
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #454b54;
+}
+.container{
+    position: relative;
+    width: 51.5rem;
+    height: 37rem;
+    background-color: white;
+    margin: 3rem auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px #181c24;
+
+    .menyu{
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+        margin-left: 2.3rem;
+        width: 5rem;
+        height: 24rem;
+        border-right: 1px solid rgb(148, 143, 143);
+
+        i{ 
+         color: rgb(165, 165, 165);
+         font-size: 1.5rem;
+         margin: 15px;
+
+         &:hover{
+            cursor: pointer;
+            color: rgb(106, 106, 224);
+        }
+        }
+    }
+
+    .icon{
+        height: 5rem;
+
+        i{
+           margin: 15px;
+            color: rgb(106, 106, 224);
+        }
+    }
+    .icon-3{
+        i{
+        color: rgb(106, 106, 224);
+        }
+    }
+    
+    @for $son from 1 through 4 {
+    .icon-#{$son}:hover::after{
+            position: absolute;
+            content: '';
+            top: 3*$son;
+            left: 4.8rem;
+            height: 3rem;
+            width: 3px;
+            background-color: rgb(106, 106, 224);
+            border-radius: 5px;
+        }
+        
+    }
+    .icon-3::after{
+        position: absolute;
+            content: '';
+            top: 9;
+            left: 4.8rem;
+            height: 3rem;
+            width: 3px;
+            background-color: rgb(106, 106, 224);
+            border-radius: 5px;
+    }
+    .image_end{
+        img{
+        position: absolute;
+        margin-top: 30rem;
+        margin-left: 2.5rem;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 2px solid blue;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+    .sity{
+        margin-left: 10rem;
+        width: 100%;
+        height: 100%;
+        
+        p{
+            position: absolute;
+            margin-top: 3rem;
+            font-family: $sanf_serif;
+            color: $color_all;
+            font-size: 20px;
+            font-weight: 600;
+
+        }
+    }
+}

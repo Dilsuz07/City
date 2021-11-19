@@ -1,0 +1,256 @@
+.header {
+  display: flex;
+  position: absolute;
+  margin-top: 3rem;
+}
+.header h1 {
+  font-family: sans-serif;
+  font-size: 60px;
+  margin-right: 7rem;
+}
+.header button {
+  margin-left: 17.5rem;
+  margin-top: 3.5rem;
+  align-items: center;
+  width: 7.5rem;
+  height: 2.5rem;
+  background-color: white;
+  color: blue;
+  border: 1px solid #b3b3e2;
+  font-size: 18px;
+  border-radius: 3px;
+  transition: 0.2s ease all;
+}
+.header button:hover {
+  cursor: pointer;
+  border: 1px solid blue;
+}
+
+.images_box {
+  position: absolute;
+  display: flex;
+  margin-top: 11rem;
+  width: 76%;
+  height: 65%;
+}
+.images_box .box-1 {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 50%;
+  transition: 1s ease all;
+}
+.images_box .box-1 .img-1 img {
+  width: 200px;
+  height: 180px;
+}
+.images_box .box-1 .img-2 img {
+  margin-left: 1rem;
+  width: 410px;
+  height: 180px;
+}
+.images_box .box-2 {
+  display: flex;
+  margin-top: 12.5rem;
+  height: 13rem;
+  width: 40rem;
+}
+.images_box .box-2 .img-3 img {
+  width: 200px;
+  height: 180px;
+}
+.images_box .box-2 .img-4 img {
+  width: 200px;
+  height: 180px;
+  margin-left: 1rem;
+}
+.images_box .box-2 .img-5 img {
+  width: 200px;
+  height: 180px;
+  margin-left: 1rem;
+}
+.images_box .img-1:hover {
+  opacity: 0.7;
+}
+.images_box .img-1:hover .COPY {
+  visibility: visible;
+}
+.images_box .img-2:hover {
+  opacity: 0.7;
+}
+.images_box .img-2:hover .COPY {
+  visibility: visible;
+}
+.images_box .img-3:hover {
+  opacity: 0.7;
+}
+.images_box .img-3:hover .COPY {
+  visibility: visible;
+}
+.images_box .img-4:hover {
+  opacity: 0.7;
+}
+.images_box .img-4:hover .COPY {
+  visibility: visible;
+}
+.images_box .img-5:hover {
+  opacity: 0.7;
+}
+.images_box .img-5:hover .COPY {
+  visibility: visible;
+}
+.images_box .COPY {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 45px;
+  width: 150px;
+  height: 50px;
+  visibility: hidden;
+}
+.images_box .COPY i {
+  font-size: 20px;
+  margin-left: 1.5rem;
+}
+.images_box .COPY i:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.images_box .Copy {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 75px;
+  width: 150px;
+  height: 50px;
+  visibility: hidden;
+}
+.images_box .Copy i {
+  font-size: 20px;
+  margin-left: 1.5rem;
+}
+.images_box .Copy i:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #454b54;
+}
+
+.container {
+  position: relative;
+  width: 51.5rem;
+  height: 37rem;
+  background-color: white;
+  margin: 3rem auto;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px #181c24;
+}
+.container .menyu {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-left: 2.3rem;
+  width: 5rem;
+  height: 24rem;
+  border-right: 1px solid #948f8f;
+}
+.container .menyu i {
+  color: #a5a5a5;
+  font-size: 1.5rem;
+  margin: 15px;
+}
+.container .menyu i:hover {
+  cursor: pointer;
+  color: #6a6ae0;
+}
+.container .icon {
+  height: 5rem;
+}
+.container .icon i {
+  margin: 15px;
+  color: #6a6ae0;
+}
+.container .icon-3 i {
+  color: #6a6ae0;
+}
+.container .icon-1:hover::after {
+  position: absolute;
+  content: "";
+  top: 3;
+  left: 4.8rem;
+  height: 3rem;
+  width: 3px;
+  background-color: #6a6ae0;
+  border-radius: 5px;
+}
+.container .icon-2:hover::after {
+  position: absolute;
+  content: "";
+  top: 6;
+  left: 4.8rem;
+  height: 3rem;
+  width: 3px;
+  background-color: #6a6ae0;
+  border-radius: 5px;
+}
+.container .icon-3:hover::after {
+  position: absolute;
+  content: "";
+  top: 9;
+  left: 4.8rem;
+  height: 3rem;
+  width: 3px;
+  background-color: #6a6ae0;
+  border-radius: 5px;
+}
+.container .icon-4:hover::after {
+  position: absolute;
+  content: "";
+  top: 12;
+  left: 4.8rem;
+  height: 3rem;
+  width: 3px;
+  background-color: #6a6ae0;
+  border-radius: 5px;
+}
+.container .icon-3::after {
+  position: absolute;
+  content: "";
+  top: 9;
+  left: 4.8rem;
+  height: 3rem;
+  width: 3px;
+  background-color: #6a6ae0;
+  border-radius: 5px;
+}
+.container .image_end img {
+  position: absolute;
+  margin-top: 30rem;
+  margin-left: 2.5rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid blue;
+}
+.container .image_end img:hover {
+  cursor: pointer;
+}
+.container .sity {
+  margin-left: 10rem;
+  width: 100%;
+  height: 100%;
+}
+.container .sity p {
+  position: absolute;
+  margin-top: 3rem;
+  font-family: sans-serif;
+  color: gray;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=style.css.map */
